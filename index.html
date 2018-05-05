@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>POSTCARD GALLERY</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+  <body>
+    <div id="postcard">
+        
+      <div id="to">To ...</div>
+        
+      <div id="message">Message ...</div>
+        
+      <div id="from">From ...</div>
+        
+    </div>
+    <div id="controls">
+        <input type="text" id="receiver" placeholder="To ..." onkeyup="changeValue()">
+        <input type="text" id="msg" placeholder="My Message" onkeyup="changeValue()">
+        <input type="text" id="sender" placeholder="From ..." onkeyup="changeValue()">
+        <input type="text" id="bgImg" placeholder="Background Image">
+        <button id="add">Add to Gallery</button> | 
+        <button id="save">Save Array</button>
+        <button id="load">Load Array</button>
+    </div>
+    <br>
+    <div id="preview"></div>
+  
+    <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
